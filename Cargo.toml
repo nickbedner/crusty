@@ -1,0 +1,13 @@
+[package]
+name = "crusty"
+version = "0.1.0"
+authors = ["nickbedner <2321769+nickbedner@users.noreply.github.com>"]
+edition = "2018"
+build = "src/build.rs"
+
+[dependencies]
+
+[lib]
+name = "crusty_core"
+path = "src/core.rs"
+crate-type = ["staticlib"]
